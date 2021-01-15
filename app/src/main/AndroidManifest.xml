@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ph12611">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ĐỗMinhĐứcph12611">
+        <activity android:name=".ThongKeActivity"></activity>
+        <activity android:name=".TopSachActivity" />
+        <activity android:name=".HoaDonActivity" />
+        <activity android:name=".SachActivity" />
+        <activity android:name=".ChangePass" />
+        <activity android:name=".ListTheLoaiActivity" />
+        <activity android:name=".ListNguoiDungActivity" />
+        <activity android:name=".TheLoaiActivity" />
+        <activity android:name=".AddNguoiDungActivity" />
+        <activity android:name=".MainScreen" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+    </application>
+
+</manifest>
